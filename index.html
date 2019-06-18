@@ -1,15 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title></title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <!-- <script src="js/bootstrap.js"></script> -->
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="avenger">
+            <img src="https://cdn.empireonline.com/jpg/70/0/0/1080/1080/aspectfit/0/0/0/0/0/0/c/articles/5ca1ec3f133d503e3a486a2e/avengers-russian.jpg" alt="an image of hawaii" class="img-fluid" id="image1">
+          </label>
 
-  </body>
+          <div class="card"  id="movie1">
+            <h4 id="name1"></h4>
+            <select class="form-control" id="avengerShowtimes">
+              <option id="avengersTime1"></option>
+              <option id="avengersTime2"></option>
+              <option id="avengersTime3"></option>
+              <option id="avengersTime4"></option>
+              <option id="avengersTime5"></option>
+              <option id="avengersTime6"></option>
+            </select>
+            <!-- <p id="landmark1"></p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" >
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="spiderman">
+            <img src="https://i.pinimg.com/originals/0d/ee/cf/0deecf965f167dfb77ea2c3f93a525d0.jpg" alt="an image of hawaii" class="img-fluid" id="image2">
+          </label>
+          <div class="card" id="movie2">
+            <h4 id="name2"></h4>
+            <select class="form-control" id="spidermanShowtimes">
+              <option id="spidermanTime1"></option>
+              <option id="spidermanTime2"></option>
+              <option id="spidermanTime3"></option>
+              <option id="spidermanTime4"></option>
+              <option id="spidermanTime5"></option>
+              <option id="spidermanTime6"></option>
+            </select>
+            <!-- <p id="landmark2"></p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="space">
+            <img src="https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="an image of hawaii" class="img-fluid" id="image3">
+          </label>
+          <div class="card" id="movie3">
+            <h4 id="name3"></h4>
+            <select class="form-control" id="spaceShowtimes">
+              <option id="spaceTime1"></option>
+              <option id="spaceTime2"></option>
+              <option id="spaceTime3"></option>
+              <option id="spaceTime4"></option>
+              <option id="spaceTime5"></option>
+              <option id="spaceTime6"></option>
+            </select>
+            <!-- <p id="landmark3"></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form id="userAgeForm">
+      <div class="form-group form-inline" id="formStyle">
+        <label for="userAge">Enter your age:</label>
+        <input id="userAge" type="number" name="userAge" class="form-control">
+
+        <button type="submit" name="button">Submit Ticket Request</button>
+
+    </form>
+
+  </div>
+
+</div>
+</body>
 </html>

@@ -1,0 +1,22 @@
+img {
+  max-height: 500px;
+}
+
+.radio {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h4 {
+  text-align: center;
+}
+
+#userAge {
+  max-width: 50vw;
+}
+
+label, input {
+  margin-right: 10px;
+
+}
